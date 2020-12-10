@@ -8,17 +8,16 @@
   - [¿Que es node?](#¿Que-es-node?)
   - [Instalar nodejs y npm](#Instalando-node-y-npm)
   - [Crear server con el modulo http con node](#Crear-server-http-con-node)
-  - Cargar archivos estaticos
-  - Crear archivos
-  - JSON
 - [Expressjs](#Expressjs)
-  - Que es express
-  - Crear simple server
-  - Nodemon y esm
-  - Crear rutas
-  - Routas y controladores
-  - CRUD (body-parser)
-  - Pruebas TDD
+  - [JSON](#JSON)
+  - [Que es express](#Expres)
+  - [Crear simple server](#Express-simple-server)
+  - [Nodemon y esm](#Nodemon-esm)
+  - [Crear rutas](#Rutas)
+  - [Routas y controladores](#Rutas-y-controladores)
+  - [Body-parser](#Bodyparser)
+  - [CRUD](#CRUD)
+  - BONUS Pruebas TDD
 - [Express y Postgresql](#Conectar-con-BD-relacional)
   - Proyecto y estructura
   - Crear server
@@ -36,13 +35,33 @@
 
 ## Nodejs
 
-## ¿Que es node?
+### ¿Que es node?
 
-## Instalando node y npm
+Es un entorno de ejecucion para javascript construido con el mmotor Javascript V8 de chrome.
+Este entorno de ejecución een tiempo real incluye todo lo que se necesita par aejecutar un programa escrito en JS.
 
-## Crear server http con node
+### Instalando node y npm
 
-Servidor basico:
+Vamos a instalar, para eso necestimaos instalar node, yo lo hare para mac.
+
+Al instalar node.js viene junto con una version de npm (node package manager) que nos proporciona bibliotecas de terceros que nos ayudan en el desarrollo.
+
+ver version de node y npm en la terminal
+
+### Crear server http con node
+
+Iniciar un proyecto con node `npm init -y`
+
+- nos crea un package.json
+- escribir un console.log
+- correr por terminal `node httpserver.js`
+- correr desde script de package.json
+
+Servidor basico http:
+
+- HTTP es un protocolo de red.
+- Un protocolo de red son un conjunto de reglas y permisos para establecer la comunicacion entre dispositivos. Se encarga de configuracion de la conexion.
+- HTTP (Protocolo de transferencia hipertexto) es el protocolo para la web (todo tipo de transacciones, que el navegador pida una pagina web o recursos a un server y este responda)
 
 - https://medium.com/@germancutraro/servidor-http-node-js-4725004bf386
 
