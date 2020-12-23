@@ -72,3 +72,24 @@ Servidor basico http:
 - https://flaviocopes.com/node-http-server/
 
 # Express
+
+Es un framework para nodejs que permite crear una infraestructura web rapida, minimmalista y flexible
+
+### Body parser
+
+Es un middleware que permite analizar los requests entrantes y disponerlos con la propiedad req.body
+
+### Nodemon
+
+Es una herramienta que ayuda a node a ejecutar scripts de manera automatica y cuando un archivo tenga un cambio la aplicacion se actualizara de forma automatica
+
+### ESM
+
+Es un cargador de modulos ECMAScript, esto nos permite soportar el uso de modulos en node.
+
+PASOS:
+
+1. Crear carpeta
+2. Inicializar proyecto de node
+3. Instlar dependencias
+4. crear config basica de express
